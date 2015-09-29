@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0-*",
+  "title": "Kickass Web Api Client",
+  "description": "Http Client for the torrent provider Kickass",
+  "authors": [ "Roland Barbe" ],
+  "owners": [ "Roland Barbe" ],
+    "repository": {
+    "type": "git",
+    "url": "git://github.com/rbarbe/KickassApi"
+  },
+  "tags": [ "Kickass", "kat", "torrent", "bittorrent" ],
+  "projectUrl": "https://github.com/rbarbe/KickassApi",
+  "licenseUrl": "https://raw.githubusercontent.com/rbarbe/KickassApi/master/LICENSE",
+  "frameworks": {
+    "dotnet": { }
+  },
+  "dependencies": {
+    "AngleSharp": "0.9.2",
+    "System.Collections": "4.0.0",
+    "System.IO.FileSystem": "4.0.0",
+    "System.Net.Http": "4.0.0",
+    "System.Linq": "4.0.0",
+    "System.Runtime": "4.0.0",
+    "System.Threading": "4.0.0",
+    "ByteSize": "1.1.1"
+  }
+}
